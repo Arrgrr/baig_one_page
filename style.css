@@ -1,0 +1,173 @@
+h1, section, body{
+    padding: 0;
+    margin: 0;
+}
+
+section{
+    padding: 32px 0;
+}
+.row{
+    width: 80%;
+    margin: auto;
+}
+.hero{
+    background: url(images/Intro.png) center;
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+.section_title{
+    text-align: center;
+}
+
+.sec_bg_gray{
+    background: rgba(0,0,0, 0.05);
+}
+
+.sec_bg_blue{
+    background: #0047FF;
+}
+
+.ads{
+    display: flex;
+}
+
+.ad_block{
+    background: #ffffff;
+    padding: 8px;
+    display: flex;
+}
+
+.ad_block p{
+    display: flex;
+    flex:1;
+}
+
+.ad_goto{
+    display: flex;
+    width: 48px;
+    height: 48px;
+    border: 1px solid rgba(0,0,0, 0.2);
+    border-radius: 50px;
+    align-self: center;
+    margin-left: 16px;
+    background: url(images/go.png) no-repeat center;
+}
+
+
+.comment_group{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.comment_block{
+    background: #ffffff;
+    display: flex;
+    width: 100%;
+    padding: 16px;
+    margin: 8px;
+    flex-direction: column;
+    box-shadow: 0 4px 20px rgba(0,0,0, 0.2);
+    border-radius: 5px;
+}
+
+
+.comment_title{
+    display: flex;
+    justify-content: space-between;
+}
+
+.comment_title h3{
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+.comment_body{
+    display: flex;
+    padding: 0;
+    margin: 4px 0;
+}
+
+.star{
+    display: flex;
+    align-self: center;
+    padding: 0 24px 0 0;
+    margin: 0;
+    background: url(images/star.png) no-repeat right;
+}
+
+.time{
+    display: flex;
+    color: gray;
+    margin: 4px 0;
+}
+
+.app_download{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.app_download h1{
+    display: flex;
+    padding: 32px 0;
+    font-weight: bold;
+}
+
+.app_icon{
+    display: flex;
+    background: #0047FF url(images/icon_user.png) center no-repeat;
+    padding: 10px;
+    width: 100px;
+    height: 100px;
+    border-radius: 25px;
+    box-shadow: 0 15px 40px rgba(0,71,255, 0.7);
+    
+}
+
+.dl_btn_group{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+
+
+.dl_btn{
+    display: flex;
+    width: 50%;
+    height: 80px;
+    margin: 0 8px;
+}
+.apple_btn{
+    background: url(images/apple_store.png) no-repeat center;
+    background-size: contain, cover;
+}
+.gp_btn{
+    background: url(images/google_play.png) no-repeat  center;
+    background-size: contain, cover;
+}
+
+
+
+
+
+
+.footer{
+    color: white;
+
+}
+
+.footer a{
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.footer a:hover{
+    text-decoration: underline;
+}
+
+a:link, a:visited{
+    color: #ffffff;
+
+}
